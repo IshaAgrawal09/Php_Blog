@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main_div_panel {
+  display: flex;
+}
+.main_div_panel p:hover {
+  cursor: pointer;
+}
+.side_left_bar {
+  background-color: #a7a7a7;
+  width: 20vw;
+  height: 70vw;
+  position: sticky;
+  top: 0;
+}
+.side_right_bar {
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  align-items: baseline;
+}
+.total_options {
+  width: 28%;
+  margin: 4% 0;
+  padding: 2%;
+  border-radius: 7px;
+  text-align: center;
+  background-color: #ccc9c9;
+}
+.circle {
+  cursor: pointer;
+  margin: 8% 0;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 3% 10%;
+  background-color: #808080;
+}
+.total_no_of_pending_post {
+  padding: 1vw;
+  height: 15vw;
+  width: 15vw;
+  background-color: steelblue;
+  border-radius: 50px;
+  margin-top: 3vw;
+  margin-left: 1.2vw;
+  color: white;
+}
+#return_data table {
+  width: 100%;
+  margin: 10% 5%;
+}
+.admin_options {
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  font-family: var(--font7);
+  font-weight: bold;
+}
+#first {
+  margin-top: 6vw;
+}
+.admin_header {
+  width: 100%;
+  padding: 1%;
+  background-color: #808080;
+  color: white;
+  text-align: center;
+}
+.admin_header h2 {
+  font-weight: 800;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.table_head {
+  font-size: 3vw;
+  margin-top: 4vw;
+  margin-bottom: 3vw;
+  color: black;
+}
+
+tr {
+  /* padding: 2%; */
+  /* height: 3vw; */
+}
+td,
+th {
+  /* padding: 1%; */
+}
+thead {
+  color: #fff;
+  padding: 3%;
+  background-color: #727374;
+}
+table {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1.2vw;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+#edit_user_id {
+  /* width: 4vw;
+  height: 2vw; */
+  background-color: rgb(145, 145, 189);
+}
+#delete_user_id {
+  /* width: 4vw;
+  height: 2vw; */
+  background-color: red;
+}
+.img_user_class {
+  /* height: 5vw;
+  width: 5vw; */
+  border-radius: 50%;
+}
+.edituser {
+  padding: 1.5vw;
+  color: blue;
+  cursor: pointer;
+}
+.deleteuser {
+  color: red;
+  padding: 1.5vw;
+}
+.selectdrop {
+  border: 1px solid black;
+  font-size: 1.4vw;
+}
